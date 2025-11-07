@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Lulito ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <audio id="backgroundMusic" src="Y2meta - MP3 - 13be008a9a351fd.mp3" loop autoplay></audio>
+    <div id="main-content">
+
+        <header class="header-section">
+            <div class="header-bubble">
+                <h1 class="main-title">Hola Lulito</h1>
+            </div>
+        </header>
+
+        <section class="photo-section">
+            <div class="photo-card">
+                <img src="imagen_4.jpeg" alt="Foto 1">
+                <p class="comment">Es tan linda!</p>
+            </div>
+            <div class="photo-card">
+                <img src="imagen_2.jpeg" alt="Foto 2">
+                <p class="comment">Hacemos bonita pareja</p>
+            </div>
+            <div class="photo-card">
+                <img src="imagen_3.jpeg" alt="Foto 3">
+                <p class="comment">¿Debería besarte?</p>
+            </div>
+        </section>
+
+        <section class="statement-section pink-bg">
+            <h2 class="section-title"> </h2>
+        </section>
+
+        <section class="statement-section light-pink-bg" id="loveStatementSection">
+            <img src="https://sweezy-cursors.com/wp-content/uploads/cursor/milk-amp-mocha-bear-love/milk-mocha-bear-love-custom-cursor.png"
+                alt="Ositos" class="bear-image">
+            <h2 class="section-title reduced-small-title">tú sabes que me gustas mucho</h2>
+            <h2 class="section-title reduced-big-title">por eso quería que leyeras esto:</h2>
+            <button id="readLetterButton" class="main-button">Leer Carta</button>
+        </section>
+
+        <section class="letter-section pink-bg hidden" id="letterContent">
+            <h2 class="section-title">Mi Querida Lulito,</h2>
+
+            <div class="letter-body">
+                <p>Desde que llegaste a mi vida, todo cambió. No fue solo una coincidencia, fue como si Dios hubiera
+                    decidido poner en mi camino a la persona que más necesitaba sin que yo lo supiera. Desde aquel
+                    primer momento supe que había algo distinto en ti, algo que hacía que todo se sintiera más bonito,
+                    más real, más lleno de vida.
+                    Cada día contigo se ha convertido en una historia que quiero seguir escribiendo. Desde nuestras
+                    conversaciones interminables hasta esos silencios cómodos que dicen más que las palabras. Desde los
+                    abrazos que me calman el alma hasta esos besos que se sienten como hogar. Todo lo que hemos vivido
+                    juntos, cada risa, cada mirada, cada detalle. Me ha hecho entender que no quiero un solo día sin ti.
+                    Admiro tanto la forma en que miras el mundo, la forma en que cuidas, cómo amas y cómo das lo mejor
+                    de ti incluso cuando no te sientes bien. Me inspiras a ser mejor, a soñar más grande, a creer que el
+                    amor puede ser verdadero y puro.
+                    Contigo aprendí que amar no es solo decir “te amo”, sino demostrarlo en cada gesto, en cada pequeño
+                    momento, en cada decisión.
+                    Lulú, quiero seguir caminando contigo, quiero seguir viendo tus sueños cumplirse y que tú veas los
+                    míos también. Quiero estar a tu lado en los días buenos y en los difíciles, apoyarte, cuidarte y
+                    recordarte todos los días lo valiosa que eres.
+                    Por eso, hoy decidí escribirte esto, no solo para decirte cuánto te amo, sino para abrirte mi
+                    corazón por completo.
+                    Porque no quiero que esto sea solo un “nos tenemos cariño”, sino una historia real, sincera, llena
+                    de amor y propósito.</p>
+                <p class="signature">- Con todo mi amor, Itito</p>
+            </div>
+
+            <button id="showQuestionButton" class="main-button">Continuar a la Pregunta</button>
+        </section>
+
+        <section class="question-section hidden" id="finalQuestionSection">
+            <h2 class="final-question">Entonces... ¿Quieres ser mi novia?</h2>
+        </section>
+
+        <section class="button-section hidden" id="buttonControls">
+            <button id="yesButton">SÍ</button>
+
+            <button id="noButton">No</button>
+        </section>
+
+    </div>
+
+    <div id="modalOverlay" class="hidden">
+        <div id="modalContent">
+            <h3></h3>
+            <p>¿ES EN SERIO?</p>
+            <button id="confirmButton">Confirmar</button>
+        </div>
+    </div>
+
+    <div id="confirmationScreen" class="hidden">
+        <img src="https://media.tenor.com/E-8pD5aR-VwAAAAC/love.gif" alt="Celebration" class="gif">
+        <h1 class="celebration-title">¡¡DIJO QUE SÍ!!</h1>
+        <h2 class="celebration-subtitle">Te amo mucho!! </h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
